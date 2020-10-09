@@ -46,3 +46,38 @@ background: #45ac9d;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* CASE STUDIES */
+
+aside.case-study-sidebar{
+	float: left;
+	width: 400px;
+	padding: 0 60px;
+	color: #636060;
+
+}
+
+aside h2{
+	font-size: 1em;
+}
+
+aside h4{
+	font-weight: lighter;
+	font-size: .7em;
+	margin-top: 10px;
+}
+aside h4 span{
+	font-weight: 600;
+}
+
+div.case-study-images {
+	float: left;
+	width: 610px;
+	padding: 0 60px;
+	
+}
+div.case-study-images img{
+	margin-bottom: 45px;
+	
+}
+
