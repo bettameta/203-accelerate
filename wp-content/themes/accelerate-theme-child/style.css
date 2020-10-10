@@ -51,16 +51,13 @@ background: #45ac9d;
 
 aside.case-study-sidebar{
 	float: left;
-	width: 400px;
-	padding: 0 60px;
+	width: 35%;
 	color: #636060;
 
 }
-
 aside h2{
 	font-size: 1em;
 }
-
 aside h4{
 	font-weight: lighter;
 	font-size: .7em;
@@ -69,15 +66,11 @@ aside h4{
 aside h4 span{
 	font-weight: 600;
 }
-
 div.case-study-images {
-	float: left;
-	width: 610px;
-	padding: 0 60px;
-	
+	float: right;
+	width: 60%	
 }
 div.case-study-images img{
-	margin-bottom: 45px;
-	
+	margin-bottom: 45px;	
 }
 
