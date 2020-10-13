@@ -23,6 +23,29 @@ Text Domain:  accelerate-theme-child
 background: #45ac9d;
 }
 
+/* FEATURED WORK STYLES */
+.featured-work h4{
+	text-transform: uppercase;
+	text-align: center;	
+}
+.homepage-featured-work{
+	width: 90%;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.individual-featured-work{
+
+}
+
+.individual-featured-work h3{
+	text-align: center;
+}
+
+
+/* BLOG POST STYLES */
 .blog-post {
 	width: 50%;
 	float: left;
