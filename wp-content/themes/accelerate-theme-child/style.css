@@ -33,12 +33,12 @@ ul.homepage-featured-work{
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-content: center;
 	justify-content: space-between;
 	
 }
 .individual-featured-work{
-	width: 30%;
+	width: 31%;
 }
 .individual-featured-work h3{
 	text-align: center;
