@@ -18,7 +18,7 @@ get_header(); ?>
 		<div id="content" role="main">
             <?php while ( have_posts() ) : the_post(); 
                 $image_1 = get_field("image_1");
-                $size = "medium";
+                $size = "full";
                 $services = get_field('services');
             ?>
             <article class="case-study">
@@ -36,5 +36,7 @@ get_header(); ?>
             <?php endwhile; // end of the loop. ?>           
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
-
+    <nav id="navigation" class="container">
+	<div class="left"><a href="<?php echo site_url('') ?>">&larr; <span>Back to homepage</span></a></div>
+    </nav>
 <?php get_footer(); ?>

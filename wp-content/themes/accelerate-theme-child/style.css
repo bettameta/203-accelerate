@@ -26,25 +26,45 @@ background: #45ac9d;
 /* FEATURED WORK STYLES */
 .featured-work h4{
 	text-transform: uppercase;
-	text-align: center;	
+	text-align: center;		
+}
+.featured-work{
+	text-align: center;
 }
 ul.homepage-featured-work{
-	/*width: 100%;*/
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
-	align-content: center;
-	justify-content: space-between;
 	
+	flex-wrap: wrap;	
 }
 .individual-featured-work{
-	width: 31%;
+	width: 90%;
+	align-items: center;	
 }
 .individual-featured-work h3{
 	text-align: center;
 	font-weight: 500;	
 }
+/*************************************************/
+/* MEDIA QUERY FRONT-PAGE FEATURED WORK STYLES */
 
+@media (min-width: 768px) {
+	/* FEATURED WORK STYLES */
+	.featured-work h4{
+		text-transform: uppercase;
+		text-align: center;	
+	}
+	ul.homepage-featured-work{
+		justify-content: center;
+		align-content: center;
+		justify-content: space-between;	
+	}
+	.individual-featured-work{
+		width: 31%;
+	}
+}
+/*************************************************/
 
 /* BLOG POST STYLES */
 .blog-post {
@@ -72,7 +92,6 @@ ul.homepage-featured-work{
 }
 
 /* CASE STUDIES */
-
 aside.case-study-sidebar{
 	float: left;
 	width: 35%;
@@ -98,3 +117,12 @@ div.case-study-images img{
 	margin-bottom: 45px;	
 }
 
+
+/* CASE STUDIES ACRHIVE PAGE */
+
+
+/* KEEP IMAGES THE SAME SIZE ON THE PAGE REGARDLESS OF THE PROJECT */
+.individual-featured-work.case-study-images img {
+	width: 100%;
+	height: auto;
+}
