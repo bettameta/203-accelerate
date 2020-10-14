@@ -34,13 +34,14 @@ background: #45ac9d;
 ul.homepage-featured-work{
 	list-style-type: none;
 	display: flex;
-	justify-content: center;
-	
+	justify-content: center;	
 	flex-wrap: wrap;	
 }
 .individual-featured-work{
 	width: 90%;
-	align-items: center;	
+	align-items: center;
+	height: auto;
+	
 }
 .individual-featured-work h3{
 	text-align: center;
@@ -96,7 +97,6 @@ aside.case-study-sidebar{
 	float: left;
 	width: 35%;
 	color: #636060;
-
 }
 aside h2{
 	font-size: 1em;
@@ -122,7 +122,4 @@ div.case-study-images img{
 
 
 /* KEEP IMAGES THE SAME SIZE ON THE PAGE REGARDLESS OF THE PROJECT */
-.individual-featured-work.case-study-images img {
-	width: 100%;
-	height: auto;
-}
+
