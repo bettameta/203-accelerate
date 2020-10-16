@@ -177,9 +177,9 @@ ul.nav-menu{
 ul.social-media-menu {
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	list-style-type: none;	
-	padding-left: 450px;
+	padding-left: 65%;
 }	
 		/********************************************/
 		/* MEDIA QUERY HEADER AND FOOTER NAV */
@@ -192,8 +192,7 @@ ul.social-media-menu {
 				flex-wrap: nowrap;
 				list-style-type: none;
 				padding-left: 0;	
-			}
-			
+			}	
 		}
 		/********************************************/
 
