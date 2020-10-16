@@ -130,7 +130,6 @@ aside h4 span{
 			.case-study-sidebar{
 				float: left;
 				width: 40%;				
-				height: auto;
 			}			
 			.case-study-images img{
 				float: right;
@@ -157,8 +156,6 @@ aside h4 span{
 			.case-study-sidebar{
 				float: left;
 				width: 31%;
-				height: 450px;
-				padding: 0;
 			}
 			.case-study-images img{
 				float: right;
@@ -166,11 +163,37 @@ aside h4 span{
 			}
 		}
 		/********************************************/
+/* NAV STYLES */
+/* HEADER TOP NAV */
+
+ul.nav-menu{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
 
 /* SOCIAL MEDIA FOOTER */
 ul.social-media-menu {
 	display: flex;
 	flex-wrap: nowrap;
+	justify-content: space-around;
 	list-style-type: none;	
-	justify-content: space-between;
+	padding-left: 450px;
 }	
+		/********************************************/
+		/* MEDIA QUERY HEADER AND FOOTER NAV */
+
+		@media (min-width: 768px) {
+			/* NAV STYLES */
+			/* SOCIAL MEDIA FOOTER */
+			ul.social-media-menu {
+				display: flex;
+				flex-wrap: nowrap;
+				list-style-type: none;
+				padding-left: 0;	
+			}
+			
+		}
+		/********************************************/
+
