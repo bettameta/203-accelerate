@@ -204,15 +204,15 @@ ul.social-media-menu {
 		/********************************************/
 
 /* CONTACT FORM */
-#primary{
-	width: 55%;
+#primary-contact{
+	width: 50%;
 }
 
-.main-content h2{
+.main-content-contact h2{
 	font-size: 1.5em;
 }
 
-.main-content p{
+.main-content-con p{
 	font-weight: lighter;
 	font-size: 1em;
 }
