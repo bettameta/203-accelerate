@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Contact Us Page
+ * The template for displaying Contact Us page
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -21,6 +21,7 @@ get_header(); ?>
 				<?php the_content(); ?>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
+
 
 	</div><!-- #primary -->
 

@@ -11,3 +11,43 @@
     <img src="http://localhost:8888/accelerate/wp-content/uploads/2020/10/mc-thumbnail-2-223x300.png" alt="" width="223" height="300" class="alignnone size-medium wp-image-47340" />
     <img src="http://localhost:8888/accelerate/wp-content/uploads/2020/10/mc-thumbnail-3-150x300.png" alt="" width="150" height="300" class="alignnone size-medium wp-image-47342" /><article class="case-study">
 </div>
+
+
+<a class="button" href="<?php echo site_url('/blog/') ?>">View Our Work</a>
+
+
+<!-- wp:heading {"level":4} -->
+<h4>Our services</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We take pride in our clients and the content we create for them.  Here is a brief overview of our offered services</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Content Strategy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Developing a content strategy is the process of planning, creating, distributing, and measuring content in all its online forms to achieve predefined business and marketing goals.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Social Media Strategy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Without a strategy, you might be posting on social media platforms for the sake of posting. Without understanding what your goals are, who your target audience is, and what they want, it’ll be hard to achieve results on social media.  Whether you want to&nbsp;or to grow your own brand through social media, developing a social media marketing strategy is essential.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Design and Developement</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The design and development process should examine all the potential risks and hurdles you will need to overcome to get the product to market. It should review progress and decide whether to proceed. You'll also need to put appropriate resources in place and consider factors such as price and demand.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Interested in working with us?</h3>
+<!-- /wp:heading -->
