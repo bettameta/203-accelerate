@@ -285,12 +285,13 @@ input[type="button"], input[type="submit"] {
 
 /* LOWER NAV AND BUTTON AREA */
 #navigation.container{
-	height: 120px;
+	height: 70px;
 }
 
 #navigation p{
 	font-weight: bold;
-	font-size: 1.3em;
-	padding-right
-	
+	font-size: 1.4em;
+	margin-right: 40px;
+	display: inline-block;
 }
+

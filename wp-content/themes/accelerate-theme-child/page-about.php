@@ -91,7 +91,9 @@ get_header(); ?>
     </div>
 
 <nav id="navigation" class="container">
-<p>Interested in working with us?<a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a></p>
+    <p>Interested in working with us?</p>
+    <p><a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a></p>
 </nav>
+<br>
 
 <?php get_footer(); ?>
