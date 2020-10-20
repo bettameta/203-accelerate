@@ -9,7 +9,7 @@ Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  accelerate-theme-child
 */
-
+/*-------------------------------*/
 /* HOMEPAGE STYLES */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
@@ -22,7 +22,7 @@ Text Domain:  accelerate-theme-child
 .button {
 background: #45ac9d;
 }
-
+/*-------------------------------*/
 /* FEATURED WORK STYLES */
 .featured-work h4{
 	text-transform: uppercase;
@@ -47,25 +47,25 @@ ul.homepage-featured-work{
 	font-weight: 500;
 	margin-top: 20px;	
 }
-/***********************************************/
-/* MEDIA QUERY FRONT-PAGE FEATURED WORK STYLES */
+		/***********************************************/
+		/* MEDIA QUERY FRONT-PAGE FEATURED WORK STYLES */
 
-@media (min-width: 768px) {
-	/* FEATURED WORK STYLES */
-	.featured-work h4{
-		text-transform: uppercase;
-		text-align: center;	
-	}
-	ul.homepage-featured-work{
-		align-content: center;
-		justify-content: space-between;	
-	}
-	.individual-featured-work{
-		width: 31%;
-	}
-}
-/************************************************/
-
+		@media (min-width: 768px) {
+			/* FEATURED WORK STYLES */
+			.featured-work h4{
+				text-transform: uppercase;
+				text-align: center;	
+			}
+			ul.homepage-featured-work{
+				align-content: center;
+				justify-content: space-between;	
+			}
+			.individual-featured-work{
+				width: 31%;
+			}
+		}
+		/************************************************/
+/*-------------------------------*/
 /* BLOG POST STYLES */
 .blog-post {
 	width: 50%;
@@ -90,7 +90,7 @@ ul.homepage-featured-work{
 	color: #45ac9d;
 	text-transform: uppercase;
 }
-
+/*-------------------------------*/
 /* CASE STUDIES */
 .case-study-sidebar{
 	width: 90%;
@@ -137,7 +137,7 @@ aside h4 span{
 			}
 		}
 		/*********************************************/
-
+/*-------------------------------*/
 /* CASE STUDIES ACRHIVE PAGE */
 
 .case-study-sidebar{
@@ -163,6 +163,8 @@ aside h4 span{
 			}
 		}
 		/********************************************/
+
+/*-------------------------------*/
 /* NAV STYLES */
 /* HEADER TOP NAV */
 ul.nav-menu{
@@ -184,7 +186,6 @@ ul.social-media-menu {
 	display: flex;
 	justify-content: space-between;
 }
-
 		/********************************************/
 		/* MEDIA QUERY HEADER AND FOOTER NAV */
 
@@ -202,7 +203,7 @@ ul.social-media-menu {
 			}
 		}
 		/********************************************/
-
+/*-------------------------------*/
 /* CONTACT FORM */
 
 #primary-contact{
@@ -223,7 +224,7 @@ input[type="button"], input[type="submit"] {
 	background: #45ab9d;
 	padding: 1.5em 5.5em;
 }
-
+/*-------------------------------*/
 /* ABOUT PAGE */
 
 /* HEADER */
@@ -294,4 +295,22 @@ input[type="button"], input[type="submit"] {
 	margin-right: 40px;
 	display: inline-block;
 }
+/*-------------------------------*/
+/* 404 PAGE */
+
+.container-404 img{
+	width: 100%;
+}
+
+.error-404{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.error-404 .button{
+	padding: 17px 50px;
+	width: 300px;	
+}
+
 
