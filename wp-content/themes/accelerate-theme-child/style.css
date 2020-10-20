@@ -225,8 +225,72 @@ input[type="button"], input[type="submit"] {
 }
 
 /* ABOUT PAGE */
+
+/* HEADER */
 .main-content-about p{
 	font-size: 1.5em;
 	color: #ffffff;
 	margin: 0 30%;
+}
+
+/* MAIN CONTENT */
+.our-service h4,
+.our-service{
+	text-align: center;
+	margin: 0 30%;
+}
+.our-service p{
+	margin-bottom: 70px;
+}
+
+/* GENERAL BODY STYLES */
+#secondary{
+	margin: 0 25%;
+}
+
+#secondary h4{
+	font-size: 1.2em;	
+}
+
+/* ALTERNATING STYLES ICON AND TEXT*/
+.content-strategy,
+.influencer-mapping,
+.social-media-strategy,
+.design-development{
+	height: 320px;
+
+}
+
+.icon-left{
+	float: left;
+	width: 25%;	
+	margin-top: 30px;
+}
+
+.text-right{
+	float: right;
+	width: 65%;	
+}
+
+.icon-right{
+	float: right;
+	width: 25%;
+	margin-top: 30px;
+}
+
+.text-left{
+	float: left;
+	width: 65%;	
+}
+
+/* LOWER NAV AND BUTTON AREA */
+#navigation.container{
+	height: 120px;
+}
+
+#navigation p{
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-right
+	
 }
