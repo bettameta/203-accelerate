@@ -16,7 +16,8 @@ get_header(); ?>
 
 
 	<div class="container-404">
-        <img src="https://i.postimg.cc/jdGFsS6C/error-404.png" alt="ice-cream">           
+    <h3>Uh Oh, What Happened?</h3>
+        <img src="https://i.postimg.cc/5yfyvm5R/error-404-45ac9b.png" alt="ice-cream">           
     </div>
 
     <div class="error-404">

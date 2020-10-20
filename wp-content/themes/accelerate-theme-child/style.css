@@ -301,6 +301,13 @@ input[type="button"], input[type="submit"] {
 .container-404 img{
 	width: 100%;
 }
+/* FONT EXPERIMENT */
+.container-404 h3{
+	font-family: 'Lemonada', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
 
 .error-404{
 	display: flex;
@@ -310,7 +317,8 @@ input[type="button"], input[type="submit"] {
 
 .error-404 .button{
 	padding: 17px 50px;
-	width: 300px;	
+	width: 300px;
+	margin-top: 20px;	
 }
 
 
