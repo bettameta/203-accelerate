@@ -277,13 +277,15 @@ margin: 5% 20% 10% 20%;
 
 /* LOWER NAV AND BUTTON AREA */
 #navigation.container{
-height: 120px;
+
+overflow: auto;
 }
 	
 #navigation p{
 font-weight: bold;
 font-size: 1.2em;
-margin-right: 40px;
+margin-top: 0;
+
 }
 
 			/********************************************/
@@ -336,7 +338,7 @@ margin-right: 40px;
 				.design-development{
 					margin-bottom: 10%;
 				}
-				
+
 				.icon-left{
 					float: left;
 					width: 25%;	
@@ -361,14 +363,14 @@ margin-right: 40px;
 
 				/* LOWER NAV AND BUTTON AREA */
 				#navigation.container{
-					height: 70px;
+
+					overflow: auto;
 				}
 
 				#navigation p{
-					font-weight: bold;
 					font-size: 1.4em;
-					margin-right: 40px;
 					display: inline-block;
+					margin: 30px 40px;
 				}
 			}
 			/********************************************/
