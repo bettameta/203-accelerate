@@ -333,6 +333,10 @@ margin-right: 40px;
 					overflow: auto;
 				}
 
+				.design-development{
+					margin-bottom: 10%;
+				}
+				
 				.icon-left{
 					float: left;
 					width: 25%;	
