@@ -47,6 +47,7 @@ ul.homepage-featured-work{
 	font-weight: 500;
 	margin-top: 20px;	
 }
+
 		/***********************************************/
 		/* MEDIA QUERY FRONT-PAGE FEATURED WORK STYLES */
 
@@ -68,7 +69,7 @@ ul.homepage-featured-work{
 /*-------------------------------*/
 /* BLOG POST STYLES */
 .blog-post {
-	width: 50%;
+	width: 42%;
 	float: left;
 	margin-bottom: 2em;
 }
@@ -90,6 +91,16 @@ ul.homepage-featured-work{
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+/*------------------------------*/
+/* TWITTER WIDGET */
+
+
+
+
+
+
+
+
 /*-------------------------------*/
 /* CASE STUDIES */
 .case-study-sidebar{
@@ -226,31 +237,33 @@ input[type="button"], input[type="submit"] {
 }
 /*-------------------------------*/
 /* ABOUT PAGE */
-
 /* HEADER */
 .main-content-about p{
-	font-size: 1.5em;
-	color: #ffffff;
-	margin: 0 30%;
-}
+font-size: 1.2em;
+color: #ffffff;
+margin: 0 20%;
 
+}
 /* MAIN CONTENT */
 .our-service h4,
 .our-service{
-	text-align: center;
-	margin: 0 30%;
+text-align: center;
+margin: 0 20%;
 }
+
 .our-service p{
-	margin-bottom: 70px;
+margin-bottom: 20px;
 }
 
 /* GENERAL BODY STYLES */
-#secondary{
-	margin: 0 25%;
+#secondary h4{
+font-size: 1.2em;
 }
 
-#secondary h4{
-	font-size: 1.2em;	
+.icon-left,
+.icon-right{
+padding: 20px 0;
+margin: 0 29%;
 }
 
 /* ALTERNATING STYLES ICON AND TEXT*/
@@ -258,43 +271,103 @@ input[type="button"], input[type="submit"] {
 .influencer-mapping,
 .social-media-strategy,
 .design-development{
-	height: 320px;
-
+margin: 5% 20%;
 }
 
-.icon-left{
-	float: left;
-	width: 25%;	
-	margin-top: 30px;
-}
-
-.text-right{
-	float: right;
-	width: 65%;	
-}
-
-.icon-right{
-	float: right;
-	width: 25%;
-	margin-top: 30px;
-}
-
-.text-left{
-	float: left;
-	width: 65%;	
-}
 
 /* LOWER NAV AND BUTTON AREA */
 #navigation.container{
-	height: 70px;
+height: 120px;
+}
+	
+#navigation p{
+font-weight: bold;
+font-size: 1.2em;
+margin-right: 40px;
 }
 
-#navigation p{
-	font-weight: bold;
-	font-size: 1.4em;
-	margin-right: 40px;
-	display: inline-block;
-}
+			/********************************************/
+			/* MEDIA QUERY HEADER AND FOOTER NAV */
+
+			@media (min-width: 768px) {
+				/* ABOUT PAGE */
+
+				/* HEADER */
+				.main-content-about p{
+					font-size: 1.5em;
+					color: #ffffff;
+					margin: 0 30%;
+				}
+
+				/* MAIN CONTENT */
+				.our-service h4,
+				.our-service{
+					text-align: center;
+					margin: 0 30%;
+				}
+				.our-service p{
+					margin-bottom: 70px;
+				}
+
+				/* GENERAL BODY STYLES */
+				#secondary{
+					margin: 0 20%;
+				}
+
+				#secondary h4{
+					font-size: 1.2em;	
+				}
+
+				.icon-right,
+				.icon-left{
+					padding: 0;
+					margin: 0;
+				}
+
+				/* ALTERNATING STYLES ICON AND TEXT*/
+				.content-strategy,
+				.influencer-mapping,
+				.social-media-strategy,
+				.design-development{
+					height: 350px;
+					margin: 0;
+				}
+
+				.icon-left{
+					float: left;
+					width: 25%;	
+					margin-top: 30px;
+				}
+
+				.text-right{
+					float: right;
+					width: 65%;	
+				}
+
+				.icon-right{
+					float: right;
+					width: 25%;
+					margin-top: 30px;
+				}
+
+				.text-left{
+					float: left;
+					width: 65%;	
+				}
+
+				/* LOWER NAV AND BUTTON AREA */
+				#navigation.container{
+					height: 70px;
+				}
+
+				#navigation p{
+					font-weight: bold;
+					font-size: 1.4em;
+					margin-right: 40px;
+					display: inline-block;
+				}
+			}
+			/********************************************/
 /*-------------------------------*/
 /* 404 PAGE */
 
@@ -305,7 +378,7 @@ input[type="button"], input[type="submit"] {
 .container-404 h3{
 	font-family: 'Lemonada', sans-serif;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	margin-top: 20px;
 }
 

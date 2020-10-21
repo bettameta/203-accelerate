@@ -57,13 +57,13 @@ get_header(); ?>
             </div>
             </article>
 
-            <article class="influencer-mapping"> 
+            <article class="influencer-mapping">
+            <div class="icon-right">
+                    <?php if($icon_2) { echo wp_get_attachment_image( $icon_2, $size ); } ?>
+            </div> 
             <div class="text-left">
                 <h4><?php echo $mapping; ?></h4>
                 <p><?php echo $mapping_description; ?></p>
-            </div>
-            <div class="icon-right">
-                    <?php if($icon_2) { echo wp_get_attachment_image( $icon_2, $size ); } ?>
             </div>
             </article>
 
@@ -78,13 +78,13 @@ get_header(); ?>
             </article>
 
             <article class="design-development">
+            <div class="icon-right">
+                <?php if($icon_4) { echo wp_get_attachment_image( $icon_4, $size ); } ?>
+            </div> 
             <div class="text-left">     
                 <h4><?php echo $design_development; ?></h4>
                 <p><?php echo $design_development_description; ?></p>
-            </div> 
-            <div class="icon-right">
-                <?php if($icon_4) { echo wp_get_attachment_image( $icon_4, $size ); } ?>
-            </div>               
+            </div>  
             </article>
 
         </div>
