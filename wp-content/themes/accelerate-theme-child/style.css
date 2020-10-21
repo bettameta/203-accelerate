@@ -252,7 +252,7 @@ margin: 0 20%;
 }
 
 .our-service p{
-margin-bottom: 20px;
+margin-bottom: 20%;
 }
 
 /* GENERAL BODY STYLES */
@@ -262,7 +262,7 @@ font-size: 1.2em;
 
 .icon-left,
 .icon-right{
-padding: 20px 0;
+padding: 20px 0 0px 0;
 margin: 0 29%;
 }
 
@@ -271,7 +271,7 @@ margin: 0 29%;
 .influencer-mapping,
 .social-media-strategy,
 .design-development{
-margin: 5% 20%;
+margin: 5% 20% 10% 20%;
 }
 
 
@@ -311,7 +311,7 @@ margin-right: 40px;
 
 				/* GENERAL BODY STYLES */
 				#secondary{
-					margin: 0 20%;
+					margin: 0 25%;
 				}
 
 				#secondary h4{
@@ -329,8 +329,8 @@ margin-right: 40px;
 				.influencer-mapping,
 				.social-media-strategy,
 				.design-development{
-					height: 350px;
 					margin: 0;
+					overflow: auto;
 				}
 
 				.icon-left{
