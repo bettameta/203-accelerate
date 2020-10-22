@@ -69,9 +69,10 @@ ul.homepage-featured-work{
 /*-------------------------------*/
 /* BLOG POST STYLES */
 .blog-post {
-	width: 42%;
+	width: 40%;
 	float: left;
 	margin-bottom: 2em;
+	margin: 0 0 0 5%;
 }
 
 .blog-post h4 {
@@ -93,13 +94,43 @@ ul.homepage-featured-work{
 }
 /*------------------------------*/
 /* TWITTER WIDGET */
+.twitter-posts{
+	width: 30%;
+	float: right;
+	margin-right: 15%;
+	margin-bottom: 2em;
+}
 
+.twitter-content ul{
+	list-style-type: none;
+	margin: 20px 0 0 0;
+	width: 400px;
+}
 
+.twitter-content li{
+	width: 400px;
+	text-align: left;
+}
+/******** FONTS & LINKS ********/
+/* RECENT TWEET TITLE */
+.twitter-content h5 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
 
-
-
-
-
+}
+/* @Accelerate LINK */
+h3 {
+	font-size: 1.5em;
+}
+/* FOLLOW US LINK */
+.read-more-link h4{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
 
 /*-------------------------------*/
 /* CASE STUDIES */
@@ -235,6 +266,7 @@ input[type="button"], input[type="submit"] {
 	background: #45ab9d;
 	padding: 1.5em 5.5em;
 }
+
 /*-------------------------------*/
 /* ABOUT PAGE */
 /* HEADER */
@@ -242,8 +274,8 @@ input[type="button"], input[type="submit"] {
 font-size: 1.2em;
 color: #ffffff;
 margin: 0 20%;
-
 }
+
 /* MAIN CONTENT */
 .our-service h4,
 .our-service{
@@ -277,7 +309,6 @@ margin: 5% 20% 10% 20%;
 
 /* LOWER NAV AND BUTTON AREA */
 #navigation.container{
-
 overflow: auto;
 }
 	
@@ -296,34 +327,34 @@ margin-top: 0;
 
 				/* HEADER */
 				.main-content-about p{
-					font-size: 1.5em;
-					color: #ffffff;
-					margin: 0 30%;
+				font-size: 1.5em;
+				color: #ffffff;
+				margin: 0 30%;
 				}
 
 				/* MAIN CONTENT */
 				.our-service h4,
 				.our-service{
-					text-align: center;
-					margin: 0 30%;
+				text-align: center;
+				margin: 0 30%;
 				}
 				.our-service p{
-					margin-bottom: 70px;
+				margin-bottom: 70px;
 				}
 
 				/* GENERAL BODY STYLES */
 				#secondary{
-					margin: 0 25%;
+				margin: 0 25%;
 				}
 
 				#secondary h4{
-					font-size: 1.2em;	
+				font-size: 1.2em;	
 				}
 
 				.icon-right,
 				.icon-left{
-					padding: 0;
-					margin: 0;
+				padding: 0;
+				margin: 0;
 				}
 
 				/* ALTERNATING STYLES ICON AND TEXT*/
@@ -331,46 +362,45 @@ margin-top: 0;
 				.influencer-mapping,
 				.social-media-strategy,
 				.design-development{
-					margin: 0;
-					overflow: auto;
+				margin: 0;
+				overflow: auto;
 				}
 
 				.design-development{
-					margin-bottom: 10%;
+				margin-bottom: 10%;
 				}
 
 				.icon-left{
-					float: left;
-					width: 25%;	
-					margin-top: 30px;
+				float: left;
+				width: 25%;	
+				margin-top: 30px;
 				}
 
 				.text-right{
-					float: right;
-					width: 65%;	
+				float: right;
+				width: 65%;	
 				}
 
 				.icon-right{
-					float: right;
-					width: 25%;
-					margin-top: 30px;
+				float: right;
+				width: 25%;
+				margin-top: 30px;
 				}
 
 				.text-left{
-					float: left;
-					width: 65%;	
+				float: left;
+				width: 65%;	
 				}
 
 				/* LOWER NAV AND BUTTON AREA */
 				#navigation.container{
-
-					overflow: auto;
+				overflow: auto;
 				}
 
 				#navigation p{
-					font-size: 1.4em;
-					display: inline-block;
-					margin: 30px 40px;
+				font-size: 1.4em;
+				display: inline-block;
+				margin: 30px 40px;
 				}
 			}
 			/********************************************/

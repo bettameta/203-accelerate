@@ -61,10 +61,20 @@ get_header(); ?>
 	</div>
 </section>
 
-<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-<div id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-2' ); ?>
-</div>
-<?php endif; ?>
+
+<section class="twitter-posts">
+	<div class="twitter-content">
+	<h5>Recent Tweet</h5>
+		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+			<div id="secondary" class="widget-area" role="complementary">
+			</div>
+				<?php dynamic_sidebar( 'sidebar-2' ); ?>				
+			</div>				
+			<div class="read-more-link">
+				<h4><a href="https://twitter.com/bettameta">Follow Us ></a></h4>			</div>
+
+		<?php endif; ?>
+	</div>
+</section>
 
 <?php get_footer(); ?>
