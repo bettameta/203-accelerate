@@ -22,6 +22,7 @@ Text Domain:  accelerate-theme-child
 .button {
 background: #45ac9d;
 }
+
 /*-------------------------------*/
 /* FEATURED WORK STYLES */
 .featured-work h4{
@@ -66,13 +67,22 @@ ul.homepage-featured-work{
 			}
 		}
 		/************************************************/
+
+/*-------------------------------*/
+/**********************************
+**** MOBILE MAGIC FOR STACKING **** 
+** BLOG POSTS & TWEET DIVS BELOW **
+***********************************
+/*-------------------------------*/
+
+	
+
 /*-------------------------------*/
 /* BLOG POST STYLES */
 .blog-post {
-	width: 40%;
-	float: left;
+	width: 65%;
 	margin-bottom: 2em;
-	margin: 0 0 0 5%;
+	margin: 20%;
 }
 
 .blog-post h4 {
@@ -93,24 +103,37 @@ ul.homepage-featured-work{
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+			/*********************************************/
+			/* MEDIA QUERY CASE STUDIES STYLES */
+			/* BLOG POST STYLES */
+			@media (min-width: 768px) {
+				.blog-post {
+					width: 40%;
+					float: left;
+					margin-bottom: 2em;
+					margin: 0 0 0 5%;
+				}
+			}
+			/*********************************************/
+
 /*------------------------------*/
 /* TWITTER WIDGET */
 .twitter-posts{
-	width: 30%;
-	float: right;
+	width: 100%;
 	margin-right: 15%;
 	margin-bottom: 2em;
 }
 
 .twitter-content ul{
 	list-style-type: none;
-	margin: 20px 0 0 0;
-	width: 400px;
+	margin: 5% 23% 3% 23%;
+
 }
 
 .twitter-content li{
-	width: 400px;
 	text-align: left;
+	width: 400px;
 }
 /******** FONTS & LINKS ********/
 /* RECENT TWEET TITLE */
@@ -118,13 +141,15 @@ ul.homepage-featured-work{
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
-    margin: 2em 0 .5em;
+	margin: 2em 0 .5em;
+	margin-left: 23%;
 
 }
 /* @Accelerate LINK */
-h3 {
+ .twitter-posts h3 {
 	font-size: 1.5em;
 	margin-top: 25px;
+	margin-left: 23%;
 }
 /* FOLLOW US LINK */
 .read-more-link h4{
@@ -132,7 +157,38 @@ h3 {
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+	margin-left: 23%;
 }
+
+		/*********************************************/
+		/* MEDIA QUERY CASE STUDIES STYLES */
+		/* TWITTER WIDGET */
+		@media (min-width: 768px) {
+				.twitter-posts{
+				width: 30%;
+				float: right;
+			}
+			
+			.twitter-content ul{
+				margin: 20px 0 0 0;
+				width: 400px;
+			}
+
+			/******** FONTS & LINKS ********/
+			/* RECENT TWEET TITLE */
+			.twitter-content h5 {
+				margin-left: 0;
+			}
+			/* @Accelerate LINK */
+			.twitter-posts h3 {
+				margin-left: 0;
+			}
+			/* FOLLOW US LINK */
+			.read-more-link h4{
+				margin-left: 0;
+			}
+
+		}
 
 /*-------------------------------*/
 /* CASE STUDIES */

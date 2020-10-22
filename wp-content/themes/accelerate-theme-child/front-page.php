@@ -47,7 +47,9 @@ get_header(); ?>
 	</div>
 </section>
 
-<section class="recent-posts">
+
+<div class="stack">
+	<section class="recent-posts">
 	<div class="site-content">
 	<div class="blog-post">
 		<h4>From the Blog</h4>
@@ -59,10 +61,10 @@ get_header(); ?>
 		<?php wp_reset_query(); ?>
 	</div>
 	</div>
-</section>
+	</section>
 
 
-<section class="twitter-posts">
+	<section class="twitter-posts">
 	<div class="twitter-content">
 	<h5>Recent Tweet</h5>
 		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
@@ -71,10 +73,10 @@ get_header(); ?>
 				<?php dynamic_sidebar( 'sidebar-2' ); ?>				
 			</div>				
 			<div class="read-more-link">
-				<h4><a href="https://twitter.com/bettameta">Follow Us ></a></h4>			</div>
-
+				<h4><a href="https://twitter.com/bettameta">Follow Us ></a></h4>			
+			</div>
 		<?php endif; ?>
 	</div>
-</section>
-
+	</section>
+</div>
 <?php get_footer(); ?>
