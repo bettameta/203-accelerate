@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages YAY!
+ * The template for displaying single case studies page
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -39,14 +39,14 @@ get_header(); ?>
                     <?php if($image_2) { echo wp_get_attachment_image( $image_2, $size ); } ?>
                     <?php if($image_3) { echo wp_get_attachment_image( $image_3, $size ); } ?>
                 </div>
-
             </article>
+
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
     </div><!-- #primary -->
 
     <nav id="navigation" class="container">
 	<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to work</span></a></div>
-</nav>
+    </nav>
 
 <?php get_footer(); ?>

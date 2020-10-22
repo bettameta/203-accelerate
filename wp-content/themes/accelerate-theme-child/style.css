@@ -104,18 +104,18 @@ ul.homepage-featured-work{
 	text-transform: uppercase;
 }
 
-			/*********************************************/
-			/* MEDIA QUERY CASE STUDIES STYLES */
-			/* BLOG POST STYLES */
-			@media (min-width: 768px) {
-				.blog-post {
-					width: 40%;
-					float: left;
-					margin-bottom: 2em;
-					margin: 0 0 0 5%;
-				}
+		/*********************************************/
+		/* MEDIA QUERY CASE STUDIES STYLES */
+		/* BLOG POST STYLES */
+		@media (min-width: 768px) {
+			.blog-post {
+				width: 40%;
+				float: left;
+				margin-bottom: 2em;
+				margin: 0 0 0 5%;
 			}
-			/*********************************************/
+		}
+		/*********************************************/
 
 /*------------------------------*/
 /* TWITTER WIDGET */
@@ -237,6 +237,7 @@ aside h4 span{
 			}
 		}
 		/*********************************************/
+
 /*-------------------------------*/
 /* CASE STUDIES ACRHIVE PAGE */
 
@@ -303,6 +304,7 @@ ul.social-media-menu {
 			}
 		}
 		/********************************************/
+
 /*-------------------------------*/
 /* CONTACT FORM */
 
@@ -377,97 +379,99 @@ margin-top: 0;
 
 }
 
-			/********************************************/
-			/* MEDIA QUERY HEADER AND FOOTER NAV */
+		/********************************************/
+		/* MEDIA QUERY HEADER AND FOOTER NAV */
 
-			@media (min-width: 768px) {
-				/* ABOUT PAGE */
+		@media (min-width: 768px) {
+			/* ABOUT PAGE */
 
-				/* HEADER */
-				.main-content-about p{
-				font-size: 1.5em;
-				color: #ffffff;
-				margin: 0 30%;
-				}
-
-				/* MAIN CONTENT */
-				.our-service h4,
-				.our-service{
-				text-align: center;
-				margin: 0 30%;
-				}
-				.our-service p{
-				margin-bottom: 70px;
-				}
-
-				/* GENERAL BODY STYLES */
-				#secondary{
-				margin: 0 25%;
-				}
-
-				#secondary h4{
-				font-size: 1.2em;	
-				}
-
-				.icon-right,
-				.icon-left{
-				padding: 0;
-				margin: 0;
-				}
-
-				/* ALTERNATING STYLES ICON AND TEXT*/
-				.content-strategy,
-				.influencer-mapping,
-				.social-media-strategy,
-				.design-development{
-				margin: 0;
-				overflow: auto;
-				}
-
-				.design-development{
-				margin-bottom: 10%;
-				}
-
-				.icon-left{
-				float: left;
-				width: 25%;	
-				margin-top: 30px;
-				}
-
-				.text-right{
-				float: right;
-				width: 65%;	
-				}
-
-				.icon-right{
-				float: right;
-				width: 25%;
-				margin-top: 30px;
-				}
-
-				.text-left{
-				float: left;
-				width: 65%;	
-				}
-
-				/* LOWER NAV AND BUTTON AREA */
-				#navigation.container{
-				overflow: auto;
-				}
-
-				#navigation p{
-				font-size: 1.4em;
-				display: inline-block;
-				margin: 30px 40px;
-				}
+			/* HEADER */
+			.main-content-about p{
+			font-size: 1.5em;
+			color: #ffffff;
+			margin: 0 30%;
 			}
-			/********************************************/
+
+			/* MAIN CONTENT */
+			.our-service h4,
+			.our-service{
+			text-align: center;
+			margin: 0 30%;
+			}
+			.our-service p{
+			margin-bottom: 70px;
+			}
+
+			/* GENERAL BODY STYLES */
+			#secondary{
+			margin: 0 25%;
+			}
+
+			#secondary h4{
+			font-size: 1.2em;	
+			}
+
+			.icon-right,
+			.icon-left{
+			padding: 0;
+			margin: 0;
+			}
+
+			/* ALTERNATING STYLES ICON AND TEXT*/
+			.content-strategy,
+			.influencer-mapping,
+			.social-media-strategy,
+			.design-development{
+			margin: 0;
+			overflow: auto;
+			}
+
+			.design-development{
+			margin-bottom: 10%;
+			}
+
+			.icon-left{
+			float: left;
+			width: 25%;	
+			margin-top: 30px;
+			}
+
+			.text-right{
+			float: right;
+			width: 65%;	
+			}
+
+			.icon-right{
+			float: right;
+			width: 25%;
+			margin-top: 30px;
+			}
+
+			.text-left{
+			float: left;
+			width: 65%;	
+			}
+
+			/* LOWER NAV AND BUTTON AREA */
+			#navigation.container{
+			overflow: auto;
+			}
+
+			#navigation p{
+			font-size: 1.4em;
+			display: inline-block;
+			margin: 30px 40px;
+			}
+		}
+		/********************************************/
+
 /*-------------------------------*/
 /* 404 PAGE */
 
 .container-404 img{
 	width: 100%;
 }
+
 /* FONT EXPERIMENT */
 .container-404 h3{
 	font-family: 'Lemonada', sans-serif;

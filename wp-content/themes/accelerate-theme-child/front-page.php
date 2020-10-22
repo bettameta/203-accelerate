@@ -47,7 +47,6 @@ get_header(); ?>
 	</div>
 </section>
 
-
 <div class="stack">
 	<section class="recent-posts">
 	<div class="site-content">
