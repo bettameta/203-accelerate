@@ -84,6 +84,7 @@ ul.homepage-featured-work{
 
 .blog-post h3 {
 	font-size: 1.5em;
+	margin-top: 25px;
 }
 
 .read-more-link {
@@ -123,6 +124,7 @@ ul.homepage-featured-work{
 /* @Accelerate LINK */
 h3 {
 	font-size: 1.5em;
+	margin-top: 25px;
 }
 /* FOLLOW US LINK */
 .read-more-link h4{
