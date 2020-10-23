@@ -62,7 +62,6 @@ get_header(); ?>
 	</div>
 	</section>
 
-
 	<section class="twitter-posts">
 	<div class="twitter-content">
 	<h5>Recent Tweet</h5>
