@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying single case studies page
+ * The template for displaying all pages YAY!
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
