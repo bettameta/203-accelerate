@@ -294,10 +294,10 @@ ul.social-media-menu {
 /* CONTACT FORM */
 
 #primary-contact{
-	width: 50%;
+	width: 87%;
 }
 .main-content-contact h2{
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 .field-wrap button, 
@@ -309,8 +309,33 @@ ul.social-media-menu {
 
 input[type="button"], input[type="submit"] {
 	background: #45ab9d;
-	padding: 1.5em 5.5em;
+	padding: 1em 4em;
 }
+
+			/********************************************/
+			/* MEDIA QUERY HEADER AND FOOTER NAV */
+
+			@media (min-width: 768px) {
+				#primary-contact{
+					width: 50%;
+				}
+				.main-content-contact h2{
+					font-size: 1.5em;
+				}
+				
+				.field-wrap button, 
+				.field-wrap input[type=button],
+				.field-wrap input[type=submit],
+				.field-wrap>div input[type=checkbox] {
+					float: right;	
+				}
+				
+				input[type="button"], input[type="submit"] {
+					background: #45ab9d;
+					padding: 1.5em 5.5em;
+				}
+			}
+			/********************************************/
 
 /*-------------------------------*/
 /* ABOUT PAGE */
