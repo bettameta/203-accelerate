@@ -69,15 +69,6 @@ ul.homepage-featured-work{
 		/************************************************/
 
 /*-------------------------------*/
-/**********************************
-**** MOBILE MAGIC FOR STACKING **** 
-** BLOG POSTS & TWEET DIVS BELOW **
-***********************************
-/*-------------------------------
-
-	NONE 
-
----------------------------------*/
 /* BLOG POST STYLES */
 .blog-post {
 	width: 65%;
@@ -189,7 +180,7 @@ ul.homepage-featured-work{
 		}
 
 /*-------------------------------*/
-/* CASE STUDIES */
+/* CASE STUDIES PAGE */
 .case-study-sidebar{
 	width: 90%;
 	color: #636060;
@@ -214,8 +205,7 @@ aside h4 span{
 /* KEEP IMAGES THE SAME SIZE AS ADDED */
 	width: 100%;
 	height: auto;
-/*********************/
-	
+/*********************/	
 }
 		/*********************************************/
 		/* MEDIA QUERY CASE STUDIES STYLES */
@@ -264,6 +254,7 @@ aside h4 span{
 		/********************************************/
 
 /*-------------------------------*/
+/* FRONT-PAGE */
 /* NAV STYLES */
 /* HEADER TOP NAV */
 ul.nav-menu{
@@ -278,13 +269,9 @@ ul.social-media-menu {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	list-style-type: none;	
-	padding-left: 75%;
+	padding-left: 75%;	
 }
-.social-media-menu a{
-	font-size: .9em;
-	display: flex;
-	justify-content: space-between;
-}
+
 		/********************************************/
 		/* MEDIA QUERY HEADER AND FOOTER NAV */
 
@@ -295,7 +282,7 @@ ul.social-media-menu {
 				*display: flex;
 				flex-wrap: nowrap;
 				list-style-type: none;
-				padding-left: 0;		
+				padding-left: 30%;	
 			}	
 			.social-media-menu a{
 				font-size: 1.5em;
