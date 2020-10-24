@@ -73,11 +73,11 @@ ul.homepage-featured-work{
 **** MOBILE MAGIC FOR STACKING **** 
 ** BLOG POSTS & TWEET DIVS BELOW **
 ***********************************
-/*-------------------------------*/
+/*-------------------------------
 
-	
+	NONE 
 
-/*-------------------------------*/
+---------------------------------*/
 /* BLOG POST STYLES */
 .blog-post {
 	width: 65%;
@@ -127,13 +127,12 @@ ul.homepage-featured-work{
 
 .twitter-content ul{
 	list-style-type: none;
-	margin: 5% 23% 3% 23%;
-
+	margin: 5% 20% 3% 20%;
 }
 
 .twitter-content li{
 	text-align: left;
-	width: 400px;
+	width: 100%;
 }
 /******** FONTS & LINKS ********/
 /* RECENT TWEET TITLE */
@@ -143,7 +142,6 @@ ul.homepage-featured-work{
     text-transform: uppercase;
 	margin: 2em 0 .5em;
 	margin-left: 23%;
-
 }
 /* @Accelerate LINK */
  .twitter-posts h3 {
