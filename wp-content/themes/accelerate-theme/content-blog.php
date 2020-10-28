@@ -1,6 +1,6 @@
 <?php
 /**
-* The default template for displaying content on the blog and archive pages
+* The default template for displaying content on the blog pages
 *
 * @link http://codex.wordpress.org/Template_Hierarchy
 *

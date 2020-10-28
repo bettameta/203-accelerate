@@ -17,6 +17,7 @@
 				<time class="entry-time"><?php echo get_the_date(); ?></time>
 			</div>
 			<h2 class="entry-title"><?php the_title(); ?></h2>
+			<?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
 		</header>
 		<div class="entry-summary">
 			<?php if ( has_post_thumbnail() ) : ?>

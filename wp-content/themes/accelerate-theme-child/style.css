@@ -46,7 +46,7 @@ ul.homepage-featured-work{
 .individual-featured-work h3{
 	text-align: center;
 	font-weight: 500;
-	margin-top: 20px;	
+	margin: 20px 0 50px 0;	
 }
 
 		/***********************************************/
@@ -96,7 +96,7 @@ ul.homepage-featured-work{
 }
 
 		/*********************************************/
-		/* MEDIA QUERY CASE STUDIES STYLES */
+		/* MEDIA QUERY BLOG POST STYLES */
 		/* BLOG POST STYLES */
 		@media (min-width: 768px) {
 			.blog-post {
@@ -114,6 +114,7 @@ ul.homepage-featured-work{
 	width: 100%;
 	margin-right: 15%;
 	margin-bottom: 2em;
+
 }
 
 .twitter-content ul{
@@ -124,7 +125,9 @@ ul.homepage-featured-work{
 .twitter-content li{
 	text-align: left;
 	width: 100%;
+	margin-left: 5%;
 }
+
 /******** FONTS & LINKS ********/
 /* RECENT TWEET TITLE */
 .twitter-content h5 {
@@ -154,13 +157,21 @@ ul.homepage-featured-work{
 		/* TWITTER WIDGET */
 		@media (min-width: 768px) {
 				.twitter-posts{
-				width: 30%;
+				width: 45%;
 				float: right;
+				padding-right: 5%;
+				padding-left: 5%;
+				margin: 0;
+
 			}
 			
 			.twitter-content ul{
-				margin: 20px 0 0 0;
-				width: 400px;
+				margin: 20px 0px 0 0;
+				width: 100%;
+			}
+		
+			.twitter-content ul li{
+				margin-left: 0;
 			}
 
 			/******** FONTS & LINKS ********/
@@ -181,13 +192,18 @@ ul.homepage-featured-work{
 
 /*-------------------------------*/
 /* CASE STUDIES PAGE */
+.case-study{
+	margin-bottom: 10px;
+}
+
 .case-study-sidebar{
 	width: 90%;
 	color: #636060;
-	padding-bottom: 40px;
+	padding-bottom: 15px;
 }
 aside h2{
 	font-size: 1em;
+	margin-top: 15px;
 }
 aside h4{
 	font-weight: lighter;
@@ -201,7 +217,7 @@ aside h4 span{
 	width: 100%	
 }
 .case-study-images img{
-	margin-bottom: 45px;
+	margin-bottom: 60px;
 /* KEEP IMAGES THE SAME SIZE AS ADDED */
 	width: 100%;
 	height: auto;
@@ -214,6 +230,8 @@ aside h4 span{
 			/* CASE STUDIES ACRCHIVE PAGE STYLES */
 			.case-study{
 				overflow: auto;
+				margin-bottom: 45px;
+				
 			}
 			.case-study-sidebar{
 				float: left;
@@ -269,7 +287,8 @@ ul.social-media-menu {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	list-style-type: none;	
-	padding-left: 75%;	
+	padding-left: 65%;	
+
 }
 
 		/********************************************/
@@ -278,11 +297,9 @@ ul.social-media-menu {
 		@media (min-width: 768px) {
 			/* NAV STYLES */
 			/* SOCIAL MEDIA FOOTER */
-			ul.social-media-menu {
-				*display: flex;
-				flex-wrap: nowrap;
+			ul.social-media-menu {	
 				list-style-type: none;
-				padding-left: 30%;	
+				padding-left: 20%;	
 			}	
 			.social-media-menu a{
 				font-size: 1.5em;
@@ -343,14 +360,14 @@ input[type="button"], input[type="submit"] {
 .main-content-about p{
 font-size: 1.2em;
 color: #ffffff;
-margin: 0 20%;
+margin: 0 10%;
 }
 
 /* MAIN CONTENT */
 .our-service h4,
 .our-service{
 text-align: center;
-margin: 0 20%;
+margin: 0 10%;
 }
 
 .our-service p{
@@ -373,7 +390,7 @@ margin: 0 29%;
 .influencer-mapping,
 .social-media-strategy,
 .design-development{
-margin: 5% 20% 10% 20%;
+margin: 5% 10% 20% 10%;
 }
 
 
@@ -390,7 +407,7 @@ padding: .3em 0;
 }
 
 #navigation .button{
-	padding: .75em 3.5em;
+	padding: .80em 3.80em;
 }
 
 
@@ -437,7 +454,7 @@ padding: .3em 0;
 			.influencer-mapping,
 			.social-media-strategy,
 			.design-development{
-			margin: 0;
+			margin: 0 0 12% 0;
 			overflow: auto;
 			}
 
