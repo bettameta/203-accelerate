@@ -289,7 +289,9 @@ ul.social-media-menu {
 	list-style-type: none;	
 	margin-left: 70%;	
 }
-
+#menu-social-media-nav img{
+	width: 1.7em;
+}
 
 
 		/********************************************/
