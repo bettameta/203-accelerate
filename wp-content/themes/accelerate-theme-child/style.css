@@ -287,9 +287,10 @@ ul.social-media-menu {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	list-style-type: none;	
-	padding-left: 65%;	
-
+	margin-left: 70%;	
 }
+
+
 
 		/********************************************/
 		/* MEDIA QUERY HEADER AND FOOTER NAV */
@@ -299,10 +300,11 @@ ul.social-media-menu {
 			/* SOCIAL MEDIA FOOTER */
 			ul.social-media-menu {	
 				list-style-type: none;
-				padding-left: 20%;	
+				margin-left: 20%;	
 			}	
-			.social-media-menu a{
-				font-size: 1.5em;
+			
+			#menu-social-media-nav img{
+				width: 2.5em;
 			}
 		}
 		/********************************************/
