@@ -179,9 +179,14 @@ ul.homepage-featured-work{
 			.twitter-content h5 {
 				margin-left: 0;
 			}
+			.tweets li{
+				width: 79%;
+				margin: 0 60% 0 0;
+			}
 			/* @Accelerate LINK */
 			.twitter-posts h3 {
 				margin-left: 0;
+				font-size: 1.5em;
 			}
 			/* FOLLOW US LINK */
 			.read-more-link h4{
