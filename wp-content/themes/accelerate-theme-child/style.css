@@ -342,7 +342,7 @@ input[type="button"], input[type="submit"] {
 
 			@media (min-width: 768px) {
 				#primary-contact{
-					width: 50%;
+					width: 60%;
 				}
 				.main-content-contact h2{
 					font-size: 1.5em;
@@ -357,7 +357,8 @@ input[type="button"], input[type="submit"] {
 				
 				input[type="button"], input[type="submit"] {
 					background: #45ab9d;
-					padding: 1.5em 5.5em;
+					padding: 1em 5em;
+					cursor: pointer;
 				}
 			}
 			/********************************************/
