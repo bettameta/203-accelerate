@@ -12,7 +12,8 @@ if (!is_plugin_active('Ultimate-Premium-Plugin/usm_premium_icons.php') && $sfsi_
     $sfsi_banner_global_gdpr = unserialize(get_option('sfsi_banner_global_gdpr', false));
     $sfsi_banner_global_http = unserialize(get_option('sfsi_banner_global_http', false));
     $sfsi_banner_global_upgrade = unserialize(get_option('sfsi_banner_global_upgrade', false));
-
+    $sfsi_dismiss_copy_delete_post = unserialize(get_option('sfsi_dismiss_copy_delete_post', false));
+    $sfsi_current_date_demo = get_option('sfsi_current_date_demo', false);
     // var_dump(
     //     $sfsi_banner_global_firsttime_offer,
     //     $sfsi_banner_global_pinterest,
@@ -26,12 +27,51 @@ if (!is_plugin_active('Ultimate-Premium-Plugin/usm_premium_icons.php') && $sfsi_
 
     $sfsi_install_time = strtotime(get_option('sfsi_installDate'));
     $sfsi_max_show_time = $sfsi_install_time + (120 * 60);
+    $sfsi_install_day_plus_three_days = $sfsi_install_time + (4320 * 60);
     $sfsi_current_time = (date('Y-m-d h:i:s'));
 
     $sfsi_loyalty = get_option("sfsi_loyaltyDate");
 
     $sfsi_min_loyalty_time = date('Y-m-d H:i:s', strtotime($sfsi_loyalty . get_option('sfsi_installDate')));
+    if (!is_plugin_active('copy-delete-posts/copy-delete-posts.php') && strtotime($sfsi_current_date_demo)  >= $sfsi_install_day_plus_three_days && isset($_GET['page']) && $_GET['page'] == "sfsi-options" && $sfsi_dismiss_copy_delete_post['show_banner'] == "yes" || false == $sfsi_dismiss_copy_delete_post) {
+        ?>
+        <div id="wpse1_6817_complete">
+            <div id="wpse1_6817" data-url="<?php echo get_site_url(); ?>">
+                <div id="wpse1_6817_container">
+                    <div>
+                        <div id="wpse1_6817_img">
+                            <img src="<?php echo SFSI_PLUGURL . 'wpses/wpse1_6817_cdp.png' ?>" alt="">
+                        </div>
+                        <div id="wpse1_6817_text">
+                            We recently launched <b>Copy & Delete Posts</b>, the best plugin to make<br />
+                            (bulk) copies of your posts & pages and delete them again.
+                        </div>
+                    </div>
+                    <div id="wpse1_6817_btns">
+                        <div id="wpse1_6817_install">
+                            <button type="button" id="wpse1_6817_install_btn" name="button"></button>
+                        </div>
+                        <div id="wpse1_6817_other">
+                            <div id="wpse1_6817_show">
+                                <a href="https://bit.ly/34bgWdr" target="_blank">Learn more</a>
+                            </div>
+                            <div id="wpse1_6817_dismiss">
+                                <form method="post" class="sfsi_premiumNoticeDismiss" style="padding-bottom:8px;">
 
+                                    <input type="hidden" name="sfsi-dismiss-copy-delete-post" value="true">
+
+                                    <input type="submit" id="wpse1_6817_btn" name="dismiss" value="Dismiss" />
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <?php
+            }
 
     if (
         $sfsi_banner_global_firsttime_offer['is_active'] == "yes"

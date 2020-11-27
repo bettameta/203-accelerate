@@ -423,9 +423,8 @@ function sfsi_widget_set(){
     });
 }
 
-SFSI(window).load(function(e) {
+SFSI(window).on('load',function () {
     SFSI('.sfsi_pinterest_sm_click').on('click touchstart', function() {
-        console.log('dsfdsfdsf');
         sfsi_pinterest_modal_images(e);
     });
 });

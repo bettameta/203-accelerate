@@ -39,7 +39,7 @@ function sfsi_update_plugin()
         update_option("sfsi_custom_icons", "yes");
     }
     //Install version
-    update_option("sfsi_pluginVersion", "2.60");
+    update_option("sfsi_pluginVersion", "2.61");
 
     if (!get_option('sfsi_serverphpVersionnotification')) {
         add_option("sfsi_serverphpVersionnotification", "yes");
@@ -100,6 +100,15 @@ function sfsi_update_plugin()
             'timestamp' => ""
         );
         add_option("sfsi_dismiss_twitter", serialize($sfsi_dismiss_twitter));
+    }
+
+    $sfsi_dismiss_copy_delete_post = unserialize(get_option('sfsi_dismiss_copy_delete_post'));
+    if (!isset($sfsi_dismiss_copy_delete_post) || empty($sfsi_dismiss_copy_delete_post)) {
+        $sfsi_dismiss_copy_delete_post = array(
+            'show_banner'     => "yes",
+            'timestamp' => ""
+        );
+        update_option("sfsi_dismiss_copy_delete_post", serialize($sfsi_dismiss_copy_delete_post));
     }
 
 
@@ -215,7 +224,7 @@ function sfsi_update_plugin()
         update_option("sfsi_banner_global_pinterest", serialize($sfsi_banner_global_pinterest));
     }
     $sfsi_banner_popups =  get_option('sfsi_banner_popups');
-    if (!isset($sfsi_banner_popups)|| empty($sfsi_banner_popups)) {
+    if (!isset($sfsi_banner_popups) || empty($sfsi_banner_popups)) {
         update_option('sfsi_banner_popups', "yes");
     }
 
@@ -1206,6 +1215,14 @@ function sfsi_activate_plugin()
         add_option("sfsi_dismiss_twitter", serialize($sfsi_dismiss_twitter));
     }
 
+    $sfsi_dismiss_copy_delete_post = unserialize(get_option('sfsi_dismiss_copy_delete_post'));
+    if (!isset($sfsi_dismiss_copy_delete_post) || empty($sfsi_dismiss_copy_delete_post)) {
+        $sfsi_dismiss_copy_delete_post = array(
+            'show_banner'     => "yes",
+            'timestamp' => ""
+        );
+        update_option("sfsi_dismiss_copy_delete_post", serialize($sfsi_dismiss_copy_delete_post));
+    }
 
 
     $sfsi_banner_global_firsttime_offer = unserialize(get_option('sfsi_banner_global_firsttime_offer'));
@@ -1317,8 +1334,8 @@ function sfsi_activate_plugin()
         );
         add_option("sfsi_banner_global_pinterest", serialize($sfsi_banner_global_pinterest));
     }
-    $sfsi_banner_popups =  (get_option('sfsi_banner_popups'));
-    if (!isset($sfsi_banner_popups)|| empty($sfsi_banner_popups)) {
+    $sfsi_banner_popups = (get_option('sfsi_banner_popups'));
+    if (!isset($sfsi_banner_popups) || empty($sfsi_banner_popups)) {
         add_option('sfsi_banner_popups', "yes");
     }
 
@@ -1444,6 +1461,7 @@ function sfsi_Unistall_plugin()
     delete_option("sfsi_banner_global_upgrade");
     delete_option("sfsi_fb_count");
     delete_option("sfsi_banner_popups");
+    delete_option("sfsi_dismiss_copy_delete_post");
 
 }
 /* end function */
@@ -1650,7 +1668,7 @@ function sfsi_rating_msg()
     $screen = "";
     if (function_exists('get_current_screen')) {
         $screen = get_current_screen();
-    } 
+    }
     if ($diff_inrval >= 40 && "no" == get_option('sfsi_RatingDiv') && !is_null($screen) && "toplevel_page_sfsi-options" == $screen->id) {
         ?>
         <style type="text/css">

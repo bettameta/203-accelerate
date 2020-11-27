@@ -3669,3 +3669,7 @@ ul.sfsi_icn_listing8 li .tb_4_ck{
 .sfsi_tool_tip_2.utube_tool_bdr .icon1 { 
     margin-left: 13px!important; 
 }
+
+.sfsi_shortcode_container .sfsi_wicons {
+    z-index: 110 !important;
+}

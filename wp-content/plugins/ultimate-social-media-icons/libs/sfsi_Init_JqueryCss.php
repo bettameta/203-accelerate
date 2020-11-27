@@ -9,6 +9,7 @@ function theme_back_enqueue_script()
 			/* include CSS for backend  */
 			wp_enqueue_style('thickbox');
 			wp_enqueue_style("SFSImainCss", SFSI_PLUGURL . 'css/sfsi-style.css');
+			wp_enqueue_style("SFSIWpsesCss", SFSI_PLUGURL . 'wpses/wpse1_6817_notiad.min.css');
 			wp_enqueue_style("SFSIJqueryCSS", SFSI_PLUGURL . 'css/jquery-ui-1.10.4/jquery-ui-min.css');
 			wp_enqueue_style("wp-color-picker");
 		}
@@ -21,7 +22,8 @@ function theme_back_enqueue_script()
 	if ($option9['sfsi_disable_floaticons'] == 'yes') {
 		wp_enqueue_style("disable_sfsi", SFSI_PLUGURL . 'css/disable_sfsi.css');
 	}
-
+	wp_register_script('SFSIWpsesJS', SFSI_PLUGURL . 'wpses/wpse1_6817_notiad.min.js', '', '', true);
+	wp_enqueue_script("SFSIWpsesJS");
 	if (isset($_GET['page'])) {
 		if ($_GET['page'] == 'sfsi-options') {
 			wp_enqueue_script('jquery');
@@ -42,6 +44,9 @@ function theme_back_enqueue_script()
 
 			wp_register_script('SFSICustomJs', SFSI_PLUGURL . 'js/custom-admin.js', '', '', true);
 			wp_enqueue_script("SFSICustomJs");
+
+			wp_register_script('SFSIWpsesJS', SFSI_PLUGURL . 'wpses/wpse1_6817_notiad.min.js', '', '', true);
+			wp_enqueue_script("SFSIWpsesJS");
 			/* end cusotm js */
 
 			/* initilaize the ajax url in javascript */

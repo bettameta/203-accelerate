@@ -402,4 +402,13 @@ if(isset($_GET['page']) && $_GET['page'] == 'sfsi-options' && isset($_GET["debug
     if (get_option('sfsi_showNextBannerDate') != $_GET['bannerinterval']) {
        update_option('sfsi_showNextBannerDate', $_GET['bannerinterval']);
     }
+    // $sfsi_install_date = (date('Y-m-d h:i:s'));
+    // $sfsi_plus_current_date_demo =  date('Y-m-d H:i:s', strtotime(date('Y-m-d h:i:s') . $_GET['currentdate-plus-days']));
+    // update_option('sfsi_plus_current_date_demo', $sfsi_plus_current_date_demo);
 }
+
+// if(isset($_GET['page']) && $_GET['page'] == 'sfsi-options' && isset($_GET["debuginstalldate"]) && isset($_GET["currentdate-days"]) && $_GET["debuginstalldate"] == "yes"){
+//     $sfsi_install_date = (date('Y-m-d h:i:s'));
+//     $sfsi_current_date_demo =  date('Y-m-d H:i:s', strtotime(date('Y-m-d h:i:s') . $_GET['currentdate-days']));
+//     update_option('sfsi_current_date_demo', $sfsi_current_date_demo);
+// } 
