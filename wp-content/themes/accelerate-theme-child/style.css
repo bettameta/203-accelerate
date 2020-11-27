@@ -335,6 +335,7 @@ ul.social-media-menu {
 input[type="button"], input[type="submit"] {
 	background: #45ab9d;
 	padding: 1em 4em;
+	cursor: pointer;
 }
 
 			/********************************************/
@@ -358,7 +359,6 @@ input[type="button"], input[type="submit"] {
 				input[type="button"], input[type="submit"] {
 					background: #45ab9d;
 					padding: 1em 5em;
-					cursor: pointer;
 				}
 			}
 			/********************************************/
