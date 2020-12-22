@@ -17,13 +17,13 @@
 				<time class="entry-time"><?php echo get_the_date(); ?></time>
 			</div>
 			<h2 class="entry-title"><?php the_title(); ?></h2>
-			<?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
+			<?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?><br><br>			
 		</header>
 		<div class="entry-summary">
 			<?php if ( has_post_thumbnail() ) : ?>
 				<figure>
 					<?php the_post_thumbnail('full'); ?>
-				</figure>
+				</figure>				
 			<?php endif; ?>
 			<?php the_content(); ?>
 		</div>
