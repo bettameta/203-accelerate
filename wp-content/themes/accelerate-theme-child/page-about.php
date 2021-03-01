@@ -59,7 +59,7 @@ get_header(); ?>
 
             <article class="influencer-mapping">
             <div class="icon-right">
-                    <?php if($icon_2) { echo wp_get_attachment_image( $icon_2, $size ); } ?>
+                <?php if($icon_2) { echo wp_get_attachment_image( $icon_2, $size ); } ?>
             </div> 
             <div class="text-left">
                 <h4><?php echo $mapping; ?></h4>
@@ -69,7 +69,7 @@ get_header(); ?>
 
             <article class="social-media-strategy">
             <div class="icon-left">
-                    <?php if($icon_3) { echo wp_get_attachment_image( $icon_3, $size ); } ?>
+                <?php if($icon_3) { echo wp_get_attachment_image( $icon_3, $size ); } ?>
             </div>
             <div class="text-right">
                 <h4><?php echo $social_media_strategy; ?></h4>
