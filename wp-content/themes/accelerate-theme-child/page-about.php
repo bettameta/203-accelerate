@@ -55,9 +55,9 @@ get_header(); ?>
                 <h4><?php echo $strategy; ?></h4>
                 <p><?php echo $strategy_description; ?></p>
             </div>
-            </article>
+        </article>
 
-            <article class="influencer-mapping">
+        <article class="influencer-mapping">
             <div class="icon-right">
                 <?php if($icon_2) { echo wp_get_attachment_image( $icon_2, $size ); } ?>
             </div> 
@@ -65,9 +65,9 @@ get_header(); ?>
                 <h4><?php echo $mapping; ?></h4>
                 <p><?php echo $mapping_description; ?></p>
             </div>
-            </article>
+        </article>
 
-            <article class="social-media-strategy">
+        <article class="social-media-strategy">
             <div class="icon-left">
                 <?php if($icon_3) { echo wp_get_attachment_image( $icon_3, $size ); } ?>
             </div>
@@ -75,9 +75,9 @@ get_header(); ?>
                 <h4><?php echo $social_media_strategy; ?></h4>
                 <p><?php echo $social_media_strategy_description; ?></p>
             </div>
-            </article>
+        </article>
 
-            <article class="design-development">
+        <article class="design-development">
             <div class="icon-right">
                 <?php if($icon_4) { echo wp_get_attachment_image( $icon_4, $size ); } ?>
             </div> 
